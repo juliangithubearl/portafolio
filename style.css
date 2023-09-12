@@ -1,0 +1,132 @@
+* {
+    font-family: 'Bauhaus Modern', sans-serif;
+
+}
+
+body {
+    background-color: #212529;
+    font-size: 23px
+    
+}
+
+.section-padding {
+    padding: 70px 0;
+    
+
+
+}
+
+
+
+.carousel-caption {
+    bottom: 200px;
+    z-index: 2;
+}
+
+.carousel-inner ::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+    z-index: 1;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+
+
+.bg-color {
+    background-color: #415F85;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+    color: black;
+}
+
+.w-100 {
+    height: 100vh;
+}
+
+.navbar-toggler {
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+}
+
+.services .card-body i {
+    font-size: 70px;
+}
+.card {
+    border: none; /* Esta propiedad elimina cualquier borde */
+}
+
+#curriculum .card .card-body {
+    background-color: #000000; /* Cambia el color de fondo del texto */
+    color: #000; /* Cambia el color del texto */
+    
+}
+
+
+
+
+
+footer {
+    background-color: #BAC7CF;
+    padding: 10px;
+    text-align: center;
+}
+
+footer p {
+    color: #212529;
+}
+
+
+@media(media-width: 767px) {
+    .navbar-nav {
+        text-align: center;
+    }
+
+    .carousel-item {
+        height: 70vh;
+
+    }
+
+    .w-100 {
+        height: 70vh;
+    }
+
+    .carousel-caption {
+        bottom: 125px;
+    }
+
+    .carousel-caption a {
+        padding: 10px 15px;
+        font-size: 15px;
+    }
+
+    .about-text {
+        margin-top: 50px;
+
+    }
+
+    .card {
+        margin-bottom: 30px;
+    }
+
+    .section-padding {
+        padding: 50px 0px;
+    }
+
+    @import url('https://fonts.cdnfonts.com/css/bauhaus-modern');
+
+
+
+}
